@@ -36,7 +36,7 @@ const FetchSpace = () => {
                                <div>
                                     <a href={r.url} target="_blank" rel="noopener noreferrer">{r.title}</a>
                                 </div>
-                               <img src={r.image_url} alt={r.title} />
+                               <img src={r.image_url} alt={r.title} style={{ height: "100px" }}/>
                                <div>{r.summary}</div> 
                             </li>
                         )
